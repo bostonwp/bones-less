@@ -11,6 +11,12 @@ sidebars, comments, ect.
 /************* INCLUDE NEEDED FILES ***************/
 
 /*
+0. library/wp-less/wp-less.php
+    - permit directly enqueuing LESS-formatted stylesheets
+*/
+require_once( 'library/wp-less/wp-less.php' );
+
+/*
 1. library/bones.php
     - head cleanup (remove rsd, uri links, junk css, ect)
 	- enqueueing scripts & styles
