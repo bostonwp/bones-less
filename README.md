@@ -1,11 +1,19 @@
-/******************************************************************
-Bones
-A Lightweight Wordpress Development Theme
+Bones-LESS
+==========
 
-_______________________________________________________________
-HEADS UP!!!
-Bones & Bones (Responsive Edition) have been merged.
-_______________________________________________________________
+**HEADS UP:** For the complete and original "Bones" starter theme for WordPress, please visit **[http://themble.com/bones](http://themble.com/bones)**
+
+## Built-In LESS Compilation & Deployment
+
+This fork of the [Bones WordPress starter theme](https://github.com/eddiemachado/bones) has been enhanced with the [wp-less](https://github.com/sanchothefat/wp-less) module in order to ease development and deployment of stylesheets using [LESS](http://lesscss.org/). Because this fork is LESS-oriented, the SCSS stylesheets have been removed.
+
+### Support for Bones-LESS
+
+For issues relating to the theme's appearance, template files or behavior, please visit the [Bones theme issues page](https://github.com/eddiemachado/bones/issues). For any issues relating *specifically* to the automatic compilation of LESS-based stylesheets, however, hit us with your bug reports right here at [Bones-Less's issues page](https://github.com/bostonwp/bones-less/issues)
+
+## Bones: A Lightweight Wordpress Development Theme
+
+*HEADS UP!!!* Bones & Bones (Responsive Edition) have been merged.
 
 Bones is designed to make the life of developers easier. It's built
 using HTML5 & has a strong semantic foundation. It was updated recently
@@ -14,28 +22,24 @@ It's constantly growing so be sure to check back often if you are a
 frequent user. I'm always open to contribution. :)
 
 Designed by Eddie Machado
-http://themble.com/bones
 
-License: WTFPL
-License URI: http://sam.zoy.org/wtfpl/
-Are You Serious? Yes.
+**License:** [WTFPL](http://sam.zoy.org/wtfpl/). **Are You Serious?** Yes.
 
 Special Thanks to:
-Paul Irish & the HTML5 Boilerplate
-Yoast for some WP functions & optimization ideas
-Andrew Rogers for code optimization
-David Dellanave for speed & code optimization
-and several other developers. :)
 
-Submit Bugs & or Fixes:
-https://github.com/eddiemachado/bones/issues
+- Paul Irish & the HTML5 Boilerplate
+- Yoast for some WP functions & optimization ideas
+- Andrew Rogers for code optimization
+- David Dellanave for speed & code optimization
+- and several other developers. :)
 
 To view Release & Update Notes, read the log.txt file inside
 the library folder.
 
-******************************************************************/
+## Changelog
 
-/* v1.25 update */
+### v1.25 update
+
 - updated custom post type page for translation
 - added => to responsive jquery
 - cleaned up theme tags (which make NO sense, but are best practice, go figure)
@@ -46,7 +50,8 @@ the library folder.
 - cleaned up mixins (border radius)
 - added translations! (Chinese, Spanish)
 
-/* v1.2 HUGE update */
+### v1.2 HUGE update
+
 - merge responsive version with classic
 - remove post title from read more link (it's way too long)
 - removed readme.txt (it was pointless)
