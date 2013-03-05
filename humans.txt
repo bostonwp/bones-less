@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    K.Adam White -- Concept & Landing Page -- @kadamwhite
+    Jon Biship -- BostonWP Github Organization Leader -- @JonDBishop
+
+# THANKS
+
+    Eddie Machado, for the Bones starter theme for WordPress
+    Robert O'Rourke, for the wp-less WordPress-compatible LESS compiler
+    WordPress, for being awesome and engendering this kind of community
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, LESS
+    jQuery, Modernizr
